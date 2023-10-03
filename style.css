@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav > a:hover {
+    color: rgb(57, 57, 175);
+    text-decoration: underline;
+}
+
+main p {
+    display: block;
+    max-width: 41vw;
+    font-family: var(--fonte3);
+    text-align: left;
+    font-size: 3.3vw;
+    padding-left: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+}
+
+section {
+    box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.644);
+}
+
+section#butterfly {
+    background: url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section#book {
+    background: url('imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+p.imagem {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+footer a:hover {
+    color: rgb(57, 57, 175);
+    text-decoration: underline;
+}
